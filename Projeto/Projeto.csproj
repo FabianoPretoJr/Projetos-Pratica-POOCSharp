@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{11085547-C119-4C48-984F-C9D02F068338}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Projeto</RootNamespace>
+    <AssemblyName>Projeto</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="pooCalcularIdade\pooCalculaIdade\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="pooCalcularIdade\pooCalculaIdade\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="pooCalcularIdade\pooCalculaIdade\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="pooCalcularIdade\pooCalculaIdade\Pessoa.cs" />
+    <Compile Include="pooCalcularIdade\pooCalculaIdade\Program.cs" />
+    <Compile Include="pooCalcularIdade\pooCalculaIdade\Properties\AssemblyInfo.cs" />
+    <Compile Include="pooMaiorIdade\pooMaiorIdade\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="pooMaiorIdade\pooMaiorIdade\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="pooMaiorIdade\pooMaiorIdade\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="pooMaiorIdade\pooMaiorIdade\Pessoa.cs" />
+    <Compile Include="pooMaiorIdade\pooMaiorIdade\Program.cs" />
+    <Compile Include="pooMaiorIdade\pooMaiorIdade\Properties\AssemblyInfo.cs" />
+    <Compile Include="pooMensagem\pooMensagem\Mensagem.cs" />
+    <Compile Include="pooMensagem\pooMensagem\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="pooMensagem\pooMensagem\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="pooMensagem\pooMensagem\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="pooMensagem\pooMensagem\Program.cs" />
+    <Compile Include="pooMensagem\pooMensagem\Properties\AssemblyInfo.cs" />
+    <Compile Include="pooPerguntaEResposta\pooPerguntaEResposta\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="pooPerguntaEResposta\pooPerguntaEResposta\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="pooPerguntaEResposta\pooPerguntaEResposta\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="pooPerguntaEResposta\pooPerguntaEResposta\Pergunta.cs" />
+    <Compile Include="pooPerguntaEResposta\pooPerguntaEResposta\PerguntaPlus.cs" />
+    <Compile Include="pooPerguntaEResposta\pooPerguntaEResposta\Program.cs" />
+    <Compile Include="pooPerguntaEResposta\pooPerguntaEResposta\Properties\AssemblyInfo.cs" />
+    <Compile Include="pooPokemonApp\pooPokemonApp\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="pooPokemonApp\pooPokemonApp\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="pooPokemonApp\pooPokemonApp\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="pooPokemonApp\pooPokemonApp\Pokedex.cs" />
+    <Compile Include="pooPokemonApp\pooPokemonApp\Pokemon.cs" />
+    <Compile Include="pooPokemonApp\pooPokemonApp\PokemonPlus.cs" />
+    <Compile Include="pooPokemonApp\pooPokemonApp\Program.cs" />
+    <Compile Include="pooPokemonApp\pooPokemonApp\Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pooCalcularIdade\.vs\pooCalculaIdade\v15\.suo" />
+    <None Include="pooCalcularIdade\.vs\pooCalculaIdade\v15\Server\sqlite3\db.lock" />
+    <None Include="pooCalcularIdade\.vs\pooCalculaIdade\v15\Server\sqlite3\storage.ide" />
+    <None Include="pooCalcularIdade\.vs\pooCalculaIdade\v15\Server\sqlite3\storage.ide-shm" />
+    <None Include="pooCalcularIdade\.vs\pooCalculaIdade\v15\Server\sqlite3\storage.ide-wal" />
+    <None Include="pooCalcularIdade\.vs\pooPokemonApp\v15\.suo" />
+    <None Include="pooCalcularIdade\.vs\pooPokemonApp\v15\Server\sqlite3\db.lock" />
+    <None Include="pooCalcularIdade\.vs\pooPokemonApp\v15\Server\sqlite3\storage.ide" />
+    <None Include="pooCalcularIdade\.vs\pooPokemonApp\v15\Server\sqlite3\storage.ide-shm" />
+    <None Include="pooCalcularIdade\.vs\pooPokemonApp\v15\Server\sqlite3\storage.ide-wal" />
+    <None Include="pooCalcularIdade\.vs\Projetos\v15\.suo" />
+    <None Include="pooCalcularIdade\.vs\Projetos\v15\Server\sqlite3\db.lock" />
+    <None Include="pooCalcularIdade\.vs\Projetos\v15\Server\sqlite3\storage.ide" />
+    <None Include="pooCalcularIdade\.vs\Projetos\v15\Server\sqlite3\storage.ide-shm" />
+    <None Include="pooCalcularIdade\.vs\Projetos\v15\Server\sqlite3\storage.ide-wal" />
+    <None Include="pooCalcularIdade\pooCalculaIdade\App.config" />
+    <None Include="pooCalcularIdade\pooCalculaIdade\bin\Debug\pooCalculaIdade.exe.config" />
+    <None Include="pooCalcularIdade\pooCalculaIdade\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="pooCalcularIdade\pooCalculaIdade\obj\Debug\pooCalculaIdade.csproj.CoreCompileInputs.cache" />
+    <None Include="pooCalcularIdade\pooCalculaIdade\obj\Debug\pooCalculaIdade.csprojAssemblyReference.cache" />
+    <None Include="pooMaiorIdade\.vs\pooMaiorIdade\v15\.suo" />
+    <None Include="pooMaiorIdade\.vs\pooMaiorIdade\v15\Server\sqlite3\db.lock" />
+    <None Include="pooMaiorIdade\.vs\pooMaiorIdade\v15\Server\sqlite3\storage.ide" />
+    <None Include="pooMaiorIdade\.vs\pooMaiorIdade\v15\Server\sqlite3\storage.ide-shm" />
+    <None Include="pooMaiorIdade\.vs\pooMaiorIdade\v15\Server\sqlite3\storage.ide-wal" />
+    <None Include="pooMaiorIdade\pooMaiorIdade\App.config" />
+    <None Include="pooMaiorIdade\pooMaiorIdade\bin\Debug\pooMaiorIdade.exe.config" />
+    <None Include="pooMaiorIdade\pooMaiorIdade\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="pooMaiorIdade\pooMaiorIdade\obj\Debug\pooMaiorIdade.csproj.CoreCompileInputs.cache" />
+    <None Include="pooMaiorIdade\pooMaiorIdade\obj\Debug\pooMaiorIdade.csprojAssemblyReference.cache" />
+    <None Include="pooMensagem\.vs\pooMensagem\v15\.suo" />
+    <None Include="pooMensagem\.vs\pooMensagem\v15\Server\sqlite3\db.lock" />
+    <None Include="pooMensagem\.vs\pooMensagem\v15\Server\sqlite3\storage.ide" />
+    <None Include="pooMensagem\pooMensagem\App.config" />
+    <None Include="pooMensagem\pooMensagem\bin\Debug\pooMensagem.exe.config" />
+    <None Include="pooMensagem\pooMensagem\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="pooMensagem\pooMensagem\obj\Debug\pooMensagem.csproj.CoreCompileInputs.cache" />
+    <None Include="pooMensagem\pooMensagem\obj\Debug\pooMensagem.csprojAssemblyReference.cache" />
+    <None Include="pooPerguntaEResposta\.vs\config\applicationhost.config" />
+    <None Include="pooPerguntaEResposta\.vs\pooPerguntaEResposta\v15\.suo" />
+    <None Include="pooPerguntaEResposta\.vs\pooPerguntaEResposta\v15\Server\sqlite3\db.lock" />
+    <None Include="pooPerguntaEResposta\.vs\pooPerguntaEResposta\v15\Server\sqlite3\storage.ide" />
+    <None Include="pooPerguntaEResposta\pooPerguntaEResposta\App.config" />
+    <None Include="pooPerguntaEResposta\pooPerguntaEResposta\bin\Debug\pooPerguntaEResposta.exe.config" />
+    <None Include="pooPerguntaEResposta\pooPerguntaEResposta\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="pooPerguntaEResposta\pooPerguntaEResposta\obj\Debug\pooPerguntaEResposta.csproj.CoreCompileInputs.cache" />
+    <None Include="pooPerguntaEResposta\pooPerguntaEResposta\obj\Debug\pooPerguntaEResposta.csprojAssemblyReference.cache" />
+    <None Include="pooPokemonApp\.vs\pooPokemonApp\v15\.suo" />
+    <None Include="pooPokemonApp\.vs\pooPokemonApp\v15\Server\sqlite3\db.lock" />
+    <None Include="pooPokemonApp\.vs\pooPokemonApp\v15\Server\sqlite3\storage.ide" />
+    <None Include="pooPokemonApp\.vs\pooPokemonApp\v15\Server\sqlite3\storage.ide-shm" />
+    <None Include="pooPokemonApp\.vs\pooPokemonApp\v15\Server\sqlite3\storage.ide-wal" />
+    <None Include="pooPokemonApp\pooPokemonApp\App.config" />
+    <None Include="pooPokemonApp\pooPokemonApp\bin\Debug\pooPokemonApp.exe.config" />
+    <None Include="pooPokemonApp\pooPokemonApp\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="pooPokemonApp\pooPokemonApp\obj\Debug\pooPokemonApp.csproj.CoreCompileInputs.cache" />
+    <None Include="pooPokemonApp\pooPokemonApp\obj\Debug\pooPokemonApp.csprojAssemblyReference.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="pooCalcularIdade\pooCalculaIdade.sln" />
+    <Content Include="pooCalcularIdade\pooCalculaIdade\bin\Debug\pooCalculaIdade.exe" />
+    <Content Include="pooCalcularIdade\pooCalculaIdade\bin\Debug\pooCalculaIdade.pdb" />
+    <Content Include="pooCalcularIdade\pooCalculaIdade\obj\Debug\pooCalculaIdade.csproj.FileListAbsolute.txt" />
+    <Content Include="pooCalcularIdade\pooCalculaIdade\obj\Debug\pooCalculaIdade.exe" />
+    <Content Include="pooCalcularIdade\pooCalculaIdade\obj\Debug\pooCalculaIdade.pdb" />
+    <Content Include="pooCalcularIdade\pooCalculaIdade\pooCalculaIdade.csproj" />
+    <Content Include="pooMaiorIdade\pooMaiorIdade.sln" />
+    <Content Include="pooMaiorIdade\pooMaiorIdade\bin\Debug\pooMaiorIdade.exe" />
+    <Content Include="pooMaiorIdade\pooMaiorIdade\bin\Debug\pooMaiorIdade.pdb" />
+    <Content Include="pooMaiorIdade\pooMaiorIdade\obj\Debug\pooMaiorIdade.csproj.FileListAbsolute.txt" />
+    <Content Include="pooMaiorIdade\pooMaiorIdade\obj\Debug\pooMaiorIdade.exe" />
+    <Content Include="pooMaiorIdade\pooMaiorIdade\obj\Debug\pooMaiorIdade.pdb" />
+    <Content Include="pooMaiorIdade\pooMaiorIdade\pooMaiorIdade.csproj" />
+    <Content Include="pooMensagem\pooMensagem.sln" />
+    <Content Include="pooMensagem\pooMensagem\bin\Debug\pooMensagem.exe" />
+    <Content Include="pooMensagem\pooMensagem\bin\Debug\pooMensagem.pdb" />
+    <Content Include="pooMensagem\pooMensagem\obj\Debug\pooMensagem.csproj.FileListAbsolute.txt" />
+    <Content Include="pooMensagem\pooMensagem\obj\Debug\pooMensagem.exe" />
+    <Content Include="pooMensagem\pooMensagem\obj\Debug\pooMensagem.pdb" />
+    <Content Include="pooMensagem\pooMensagem\pooMensagem.csproj" />
+    <Content Include="pooPerguntaEResposta\pooPerguntaEResposta.sln" />
+    <Content Include="pooPerguntaEResposta\pooPerguntaEResposta\bin\Debug\pooPerguntaEResposta.exe" />
+    <Content Include="pooPerguntaEResposta\pooPerguntaEResposta\bin\Debug\pooPerguntaEResposta.pdb" />
+    <Content Include="pooPerguntaEResposta\pooPerguntaEResposta\obj\Debug\pooPerguntaEResposta.csproj.FileListAbsolute.txt" />
+    <Content Include="pooPerguntaEResposta\pooPerguntaEResposta\obj\Debug\pooPerguntaEResposta.exe" />
+    <Content Include="pooPerguntaEResposta\pooPerguntaEResposta\obj\Debug\pooPerguntaEResposta.pdb" />
+    <Content Include="pooPerguntaEResposta\pooPerguntaEResposta\pooPerguntaEResposta.csproj" />
+    <Content Include="pooPokemonApp\pooPokemonApp.sln" />
+    <Content Include="pooPokemonApp\pooPokemonApp\bin\Debug\pooPokemonApp.exe" />
+    <Content Include="pooPokemonApp\pooPokemonApp\bin\Debug\pooPokemonApp.pdb" />
+    <Content Include="pooPokemonApp\pooPokemonApp\obj\Debug\pooPokemonApp.csproj.FileListAbsolute.txt" />
+    <Content Include="pooPokemonApp\pooPokemonApp\obj\Debug\pooPokemonApp.exe" />
+    <Content Include="pooPokemonApp\pooPokemonApp\obj\Debug\pooPokemonApp.pdb" />
+    <Content Include="pooPokemonApp\pooPokemonApp\pooPokemonApp.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="pooCalcularIdade\pooCalculaIdade\obj\Debug\TempPE\" />
+    <Folder Include="pooMaiorIdade\pooMaiorIdade\obj\Debug\TempPE\" />
+    <Folder Include="pooMensagem\pooMensagem\obj\Debug\TempPE\" />
+    <Folder Include="pooPerguntaEResposta\pooPerguntaEResposta\bin\Release\" />
+    <Folder Include="pooPerguntaEResposta\pooPerguntaEResposta\obj\Debug\TempPE\" />
+    <Folder Include="pooPokemonApp\pooPokemonApp\obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
