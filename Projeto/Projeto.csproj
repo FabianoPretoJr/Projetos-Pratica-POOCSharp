@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="listaExercicios1\listaExercicios1\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="listaExercicios1\listaExercicios1\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="listaExercicios1\listaExercicios1\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="listaExercicios1\listaExercicios1\Pessoa.cs" />
+    <Compile Include="listaExercicios1\listaExercicios1\Program.cs" />
+    <Compile Include="listaExercicios1\listaExercicios1\Properties\AssemblyInfo.cs" />
     <Compile Include="pooCalcularIdade\pooCalculaIdade\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="pooCalcularIdade\pooCalculaIdade\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="pooCalcularIdade\pooCalculaIdade\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
@@ -79,6 +85,16 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="listaExercicios1\.vs\listaExercicios1\v15\.suo" />
+    <None Include="listaExercicios1\.vs\listaExercicios1\v15\Server\sqlite3\db.lock" />
+    <None Include="listaExercicios1\.vs\listaExercicios1\v15\Server\sqlite3\storage.ide" />
+    <None Include="listaExercicios1\.vs\listaExercicios1\v15\Server\sqlite3\storage.ide-shm" />
+    <None Include="listaExercicios1\.vs\listaExercicios1\v15\Server\sqlite3\storage.ide-wal" />
+    <None Include="listaExercicios1\listaExercicios1\App.config" />
+    <None Include="listaExercicios1\listaExercicios1\bin\Debug\listaExercicios1.exe.config" />
+    <None Include="listaExercicios1\listaExercicios1\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="listaExercicios1\listaExercicios1\obj\Debug\listaExercicios1.csproj.CoreCompileInputs.cache" />
+    <None Include="listaExercicios1\listaExercicios1\obj\Debug\listaExercicios1.csprojAssemblyReference.cache" />
     <None Include="pooCalcularIdade\.vs\pooCalculaIdade\v15\.suo" />
     <None Include="pooCalcularIdade\.vs\pooCalculaIdade\v15\Server\sqlite3\db.lock" />
     <None Include="pooCalcularIdade\.vs\pooCalculaIdade\v15\Server\sqlite3\storage.ide" />
@@ -138,6 +154,13 @@
     <None Include="pooPokemonApp\pooPokemonApp\obj\Debug\pooPokemonApp.csprojAssemblyReference.cache" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="listaExercicios1\listaExercicios1.sln" />
+    <Content Include="listaExercicios1\listaExercicios1\bin\Debug\listaExercicios1.exe" />
+    <Content Include="listaExercicios1\listaExercicios1\bin\Debug\listaExercicios1.pdb" />
+    <Content Include="listaExercicios1\listaExercicios1\listaExercicios1.csproj" />
+    <Content Include="listaExercicios1\listaExercicios1\obj\Debug\listaExercicios1.csproj.FileListAbsolute.txt" />
+    <Content Include="listaExercicios1\listaExercicios1\obj\Debug\listaExercicios1.exe" />
+    <Content Include="listaExercicios1\listaExercicios1\obj\Debug\listaExercicios1.pdb" />
     <Content Include="pooCalcularIdade\pooCalculaIdade.sln" />
     <Content Include="pooCalcularIdade\pooCalculaIdade\bin\Debug\pooCalculaIdade.exe" />
     <Content Include="pooCalcularIdade\pooCalculaIdade\bin\Debug\pooCalculaIdade.pdb" />
@@ -175,6 +198,7 @@
     <Content Include="pooPokemonApp\pooPokemonApp\pooPokemonApp.csproj" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="listaExercicios1\listaExercicios1\obj\Debug\TempPE\" />
     <Folder Include="pooCalcularIdade\pooCalculaIdade\obj\Debug\TempPE\" />
     <Folder Include="pooMaiorIdade\pooMaiorIdade\obj\Debug\TempPE\" />
     <Folder Include="pooMensagem\pooMensagem\obj\Debug\TempPE\" />
